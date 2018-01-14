@@ -1,0 +1,33 @@
+{
+  "name": "terminalnode",
+  "version": "1.0.0",
+  "description": "Terminal Emulator",
+  "main": "server_index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feraldeamon/TerminalNode.git"
+  },
+  "keywords": [
+    "Terminal",
+    "Emulator"
+  ],
+  "author": "David Hunt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feraldeamon/TerminalNode/issues"
+  },
+  "homepage": "https://github.com/feraldeamon/TerminalNode#readme",
+  "dependencies": {
+    "electron": "^1.7.10",
+    "jQuery": "^1.7.4",
+    "socket.io": "^2.0.4",
+    "xterm": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "electron-is-dev": "^0.3.0"
+  }
+}
